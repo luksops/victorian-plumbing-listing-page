@@ -44,6 +44,7 @@ const toggleFacetOption = (
   );
 };
 
+// This side filter is currently scooped only for color, but it can be expanded to be reused for almost all facets except prices.
 export function SideFilter({
   facets,
   activeFacets,
