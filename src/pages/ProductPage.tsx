@@ -19,8 +19,6 @@ export function ProductPage() {
     mutateAsync(activeFacets);
   }, [mutateAsync, sortOrder, page, activeFacets]);
 
-  console.log({ activeFacets });
-
   return (
     <>
       <MainPageGrid customClass="mb-2 items-end">

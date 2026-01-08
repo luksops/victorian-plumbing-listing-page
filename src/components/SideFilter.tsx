@@ -57,7 +57,7 @@ export function SideFilter({
       <hr className="-mx-2" />
       <div className="mt-2 flex flex-col gap-1">
         {colourFacet?.options.map((option) => (
-          <div className="flex items-start gap-3">
+          <div key={option.identifier} className="flex items-start gap-3">
             <Checkbox
               defaultChecked={activeFacets?.colour?.some(
                 (facet) => facet.identifier === option.identifier

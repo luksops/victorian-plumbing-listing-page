@@ -5,7 +5,7 @@ export const axiosInstance = axios.create({
     "https://spanishinquisition.victorianplumbing.co.uk/interviews/listings",
   params: {
     // Move API key to .env
-    apikey: "yj2bV48J40KsBpIMLvrZZ1j1KwxN4u3A83H8IBvI",
+    apikey: import.meta.env.VITE_API_KEY,
   },
   timeout: 10000,
 });
