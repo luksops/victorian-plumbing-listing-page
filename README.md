@@ -12,23 +12,35 @@ A quick prototype of a product listing page built with React, TypeScript, Vite, 
 
 1. Clone the repository and navigate to the project directory:
 
-```bash
-cd victorian-plumbing-lucas
-```
-
 2. Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-3. Start the development server:
+3. Create environment file for API configuration:
+
+```bash
+cp .env.example .env
+# Edit .env and add your API key
+```
+
+4. Start the development server:
 
 ```bash
 pnpm dev
 ```
 
 The application will be available at `http://localhost:5173`
+
+## Features
+
+- **Product Listing**
+- **Filtering**
+- **Sorting**
+- **Pagination**:
+- **Responsive Design**
+- **Type Safety**
 
 ## Tech Stack
 
